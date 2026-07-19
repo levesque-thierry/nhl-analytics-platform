@@ -1,0 +1,15 @@
+# NHL Analytics Platform - Project Dependencies
+# ------------------------------------------------------
+# Setup:
+#   python -m venv .venv
+#   .venv\Scripts\activate        (Windows)
+#   source .venv/bin/activate     (Mac/Linux)
+#   pip install -r scripts/requirements.txt
+
+# Data Warehouse
+requests>=2.31.0
+pydantic>=2.5.0
+
+# Dashboard
+streamlit>=1.31.0
+pandas>=2.1.0
