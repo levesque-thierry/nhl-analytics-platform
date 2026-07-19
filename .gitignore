@@ -1,2 +1,7 @@
+# Databases
 *.db
 *.sqlite
+
+# Python build artifacts
+__pycache__/
+*.pyc
