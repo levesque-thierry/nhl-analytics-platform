@@ -70,6 +70,8 @@ Goal: Build a Streamlit multi-page app to explore and visualize the data warehou
 
 - \[x] Task 1.15: Update `api_map.md` with schedule endpoint and boxscore endpoint field documentation.
 
+- \[x] Task D.8: Create `dashboard/pages/3_Broadcast_Analytics.py` — 4-tab visualization of Phase 2 engine (Anomaly Leaderboard, Player Deep Dive, Baselines Explorer, Streak Type Distribution).
+
 
 
 \---
@@ -82,13 +84,13 @@ Goal: Develop an algorithmic novelty index engine to flag rare player streaks.
 
 
 
-\- \[ ] Task 2.1: Write historical frequency query layers against `nhl\_data.db` to calculate empirical probability baselines ($P$).
+\- \[x] Task 2.1: Write historical frequency query layers against `nhl\_data.db` to calculate empirical probability baselines ($P$).
 
-\- \[ ] Task 2.2: Implement core algorithmic `StreakAnomaly` engine (Object-Oriented dataclass structures parsing active player game sequences).
+\- \[x] Task 2.2: Implement core algorithmic `StreakAnomaly` engine (Object-Oriented dataclass structures parsing active player game sequences).
 
-\- \[ ] Task 2.3: Build comprehensive test suites (`pytest`) checking edge cases (e.g., scoring slumps, injury gaps, multiple streaks).
+\- \[x] Task 2.3: Build comprehensive test suites (`pytest`) checking edge cases (e.g., scoring slumps, injury gaps, multiple streaks).
 
-\- \[ ] Task 2.4: Build daily cron/runner pipeline script to evaluate active streaks for a specific game-day schedule.
+\- \[x] Task 2.4: Build daily cron/runner pipeline script to evaluate active streaks for a specific game-day schedule.
 
 
 

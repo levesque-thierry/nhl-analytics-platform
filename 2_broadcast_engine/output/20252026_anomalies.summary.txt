@@ -1,0 +1,809 @@
+========================================================================
+  NHL StreakAnomaly Daily Report
+  Generated: 2026-07-20 15:40 UTC
+  Total anomalies: 112
+========================================================================
+
+--- EXTREMELY RARE (23 streaks) ---
+
+  Scott Sabourin (TBL, R) — Consecutive games with 1 or fewer shots
+    Length: 24 games  |  2025-11-16 to 2026-04-15
+    league: P=0.0086  rarity=0.9914
+      team: P=0.0222  rarity=0.9778
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.9638
+
+  Tyson Kozak (BUF, C) — Consecutive games with 0 goals
+    Length: 40 games  |  2025-10-24 to 2026-04-15
+    league: P=0.0187  rarity=0.9813
+      team: P=0.0189  rarity=0.9811
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.9609
+
+  Michael Rasmussen (DET, C) — Consecutive games with 0 points
+    Length: 25 games  |  2026-01-08 to 2026-04-07
+    league: P=0.0144  rarity=0.9856
+      team: P=0.0250  rarity=0.9750
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.9605
+
+  Matt Rempe (NYR, C) — Consecutive games with 0 points
+    Length: 23 games  |  2025-10-12 to 2026-02-05
+    league: P=0.0215  rarity=0.9785
+      team: P=0.0185  rarity=0.9815
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.9599
+
+  Ozzy Wiesblatt (NSH, C) — Consecutive games with 1 or fewer shots
+    Length: 19 games  |  2025-11-29 to 2026-04-16
+    league: P=0.0251  rarity=0.9749
+      team: P=0.0217  rarity=0.9783
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.9573
+
+  Nick Bjugstad (STL, C) — Consecutive games with 0 goals
+    Length: 34 games  |  2026-01-18 to 2026-04-14
+    league: P=0.0352  rarity=0.9648
+      team: P=0.0213  rarity=0.9787
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.9535
+
+  David Jiricek (MIN, D) — Consecutive games with 0 points
+    Length: 26 games  |  2025-10-09 to 2026-04-14
+    league: P=0.0352  rarity=0.9648
+      team: P=0.0323  rarity=0.9677
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.9496
+
+  Jake Christiansen (CBJ, D) — Consecutive games with 1 or fewer shots
+    Length: 22 games  |  2025-11-24 to 2026-04-14
+    league: P=0.0300  rarity=0.9700
+      team: P=0.0385  rarity=0.9615
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.9495
+
+  Jack Finley (STL, C) — Consecutive games with 0 goals
+    Length: 32 games  |  2025-12-22 to 2026-04-16
+    league: P=0.0452  rarity=0.9548
+      team: P=0.0213  rarity=0.9787
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.9495
+
+  Keegan Kolesar (VGK, R) — Consecutive games with 1 or fewer shots
+    Length: 15 games  |  2026-03-17 to 2026-04-15
+    league: P=0.0560  rarity=0.9440
+      team: P=0.0192  rarity=0.9808
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.9459
+
+  Hendrix Lapierre (WSH, C) — Consecutive games with 1 or fewer shots
+    Length: 17 games  |  2026-03-03 to 2026-04-14
+    league: P=0.0373  rarity=0.9627
+      team: P=0.0408  rarity=0.9592
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.9458
+
+  Kyle Capobianco (DAL, D) — Consecutive games with 1 or fewer shots
+    Length: 20 games  |  2025-12-05 to 2026-04-13
+    league: P=0.0456  rarity=0.9544
+      team: P=0.0370  rarity=0.9630
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.9438
+
+  Nathan Walker (STL, L) — Consecutive games with 0 points
+    Length: 19 games  |  2026-01-10 to 2026-04-16
+    league: P=0.0431  rarity=0.9569
+      team: P=0.0426  rarity=0.9574
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.9429
+
+  Miles Wood (CBJ, L) — Consecutive games with 0 goals
+    Length: 32 games  |  2025-12-07 to 2026-04-14
+    league: P=0.0452  rarity=0.9548
+      team: P=0.0426  rarity=0.9574
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.9420
+
+  Jesperi Kotkaniemi (CAR, C) — Consecutive games with 0 goals
+    Length: 30 games  |  2025-11-09 to 2026-04-14
+    league: P=0.0603  rarity=0.9397
+      team: P=0.0408  rarity=0.9592
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.9366
+
+  Jordan Greenway (BUF, L) — Consecutive games with 0 goals
+    Length: 33 games  |  2025-11-15 to 2026-04-15
+    league: P=0.0402  rarity=0.9598
+      team: P=0.0755  rarity=0.9245
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.9325
+
+  Ondrej Palat (NJD, L) — Consecutive games with 0 goals
+    Length: 28 games  |  2026-01-29 to 2026-04-14
+    league: P=0.0761  rarity=0.9239
+      team: P=0.0612  rarity=0.9388
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.9231
+
+  Dante Fabbro (CBJ, D) — Consecutive games with 1 or fewer shots
+    Length: 21 games  |  2026-03-03 to 2026-04-14
+    league: P=0.0378  rarity=0.9622
+      team: P=0.1154  rarity=0.8846
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.9195
+
+  Kyle MacLean (NYI, C) — Consecutive games with 0 goals
+    Length: 29 games  |  2026-01-15 to 2026-04-12
+    league: P=0.0689  rarity=0.9311
+      team: P=0.0930  rarity=0.9070
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.9149
+
+  Cody Ceci (LAK, D) — Consecutive games with 1 or fewer shots
+    Length: 20 games  |  2026-03-09 to 2026-04-16
+    league: P=0.0456  rarity=0.9544
+      team: P=0.1200  rarity=0.8800
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.9147
+
+  Spencer Stastney (NSH, D) — Consecutive games with 1 or fewer shots
+    Length: 15 games  |  2026-01-24 to 2026-03-19
+    league: P=0.1199  rarity=0.8801
+      team: P=0.0385  rarity=0.9615
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.9136
+
+  Sean Walker (CAR, D) — Consecutive games with 1+ points
+    Length: 6 games  |  2026-04-04 to 2026-04-13
+    league: P=0.0834  rarity=0.9166
+      team: P=0.0833  rarity=0.9167
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.9125
+
+  Dmitry Kulikov (FLA, D) — Consecutive games with 0 points
+    Length: 19 games  |  2025-10-07 to 2026-04-07
+    league: P=0.1030  rarity=0.8970
+      team: P=0.0769  rarity=0.9231
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.9069
+
+--- VERY RARE (62 streaks) ---
+
+  Brian Dumoulin (LAK, D) — Consecutive games with 1 or fewer shots
+    Length: 19 games  |  2026-03-10 to 2026-04-16
+    league: P=0.0535  rarity=0.9465
+      team: P=0.1600  rarity=0.8400
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.8976
+
+  Philippe Myers (TOR, D) — Consecutive games with 0 points
+    Length: 22 games  |  2025-12-27 to 2026-04-09
+    league: P=0.0730  rarity=0.9270
+      team: P=0.1379  rarity=0.8621
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.8975
+
+  Miles Wood (CBJ, L) — Consecutive games with 0 points
+    Length: 15 games  |  2026-03-02 to 2026-04-14
+    league: P=0.1012  rarity=0.8988
+      team: P=0.1064  rarity=0.8936
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.8973
+
+  Scott Sabourin (TBL, R) — Consecutive games with 0 goals
+    Length: 25 games  |  2025-11-15 to 2026-04-15
+    league: P=0.1177  rarity=0.8823
+      team: P=0.0889  rarity=0.9111
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.8968
+
+  Logan Stankoven (CAR, C) — Consecutive games with 1+ points
+    Length: 8 games  |  2026-03-31 to 2026-04-14
+    league: P=0.1120  rarity=0.8880
+      team: P=0.1020  rarity=0.8980
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.8945
+
+  Cole Reinhardt (VGK, L) — Consecutive games with 1+ goals
+    Length: 4 games  |  2026-04-07 to 2026-04-15
+    league: P=0.1299  rarity=0.8701
+      team: P=0.0962  rarity=0.9038
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.8894
+
+  Jesperi Kotkaniemi (CAR, C) — Consecutive games with 1 or fewer shots
+    Length: 11 games  |  2026-01-29 to 2026-04-14
+    league: P=0.1500  rarity=0.8500
+      team: P=0.0816  rarity=0.9184
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.8864
+
+  Conor Geekie (TBL, C) — Consecutive games with 1 or fewer shots
+    Length: 12 games  |  2025-10-13 to 2026-04-13
+    league: P=0.1170  rarity=0.8830
+      team: P=0.1333  rarity=0.8667
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.8815
+
+  Jack Finley (STL, C) — Consecutive games with 0 points
+    Length: 14 games  |  2026-03-13 to 2026-04-16
+    league: P=0.1307  rarity=0.8693
+      team: P=0.1277  rarity=0.8723
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.8781
+
+  Matt Rempe (NYR, C) — Consecutive games with 0 goals
+    Length: 23 games  |  2025-10-12 to 2026-02-05
+    league: P=0.1615  rarity=0.8385
+      team: P=0.0926  rarity=0.9074
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.8780
+
+  Simon Nemec (NJD, D) — Consecutive games with negative plus/minus
+    Length: 5 games  |  2026-04-07 to 2026-04-14
+    league: P=0.1317  rarity=0.8683
+      team: P=0.1538  rarity=0.8462
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.8685
+
+  Michael Rasmussen (DET, C) — Consecutive games with 0 goals
+    Length: 25 games  |  2026-01-08 to 2026-04-07
+    league: P=0.1177  rarity=0.8823
+      team: P=0.1750  rarity=0.8250
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.8667
+
+  Joel Hanley (CGY, D) — Consecutive games with 0 points
+    Length: 16 games  |  2026-02-04 to 2026-03-26
+    league: P=0.1734  rarity=0.8266
+      team: P=0.1143  rarity=0.8857
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.8656
+
+  Ian Moore (ANA, D) — Consecutive games with 0 points
+    Length: 17 games  |  2026-03-14 to 2026-04-16
+    league: P=0.1460  rarity=0.8540
+      team: P=0.1481  rarity=0.8519
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.8647
+
+  Taylor Ward (LAK, R) — Consecutive games with 1 or fewer shots
+    Length: 12 games  |  2026-03-16 to 2026-04-16
+    league: P=0.1170  rarity=0.8830
+      team: P=0.1818  rarity=0.8182
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.8646
+
+  Jake Christiansen (CBJ, D) — Consecutive games with 0 goals
+    Length: 40 games  |  2025-10-13 to 2026-04-14
+    league: P=0.1525  rarity=0.8475
+      team: P=0.1538  rarity=0.8462
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.8601
+
+  Brayden Pachal (CGY, D) — Consecutive games with 1 or fewer shots
+    Length: 13 games  |  2026-03-01 to 2026-04-16
+    league: P=0.1890  rarity=0.8110
+      team: P=0.1143  rarity=0.8857
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.8594
+
+  Liam Ohgren (MIN, L) — Consecutive games with 1 or fewer shots
+    Length: 10 games  |  2026-03-30 to 2026-04-16
+    league: P=0.1960  rarity=0.8040
+      team: P=0.1200  rarity=0.8800
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.8546
+
+  Philippe Myers (TOR, D) — Consecutive games with 0 goals
+    Length: 39 games  |  2025-10-24 to 2026-04-09
+    league: P=0.1799  rarity=0.8201
+      team: P=0.1724  rarity=0.8276
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.8427
+
+  Conor Timmins (BUF, D) — Consecutive games with 0 goals
+    Length: 39 games  |  2025-10-09 to 2026-04-15
+    league: P=0.1799  rarity=0.8201
+      team: P=0.1786  rarity=0.8214
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.8405
+
+  Will Borgen (NYR, D) — Consecutive games with 1 or fewer shots
+    Length: 12 games  |  2026-03-23 to 2026-04-15
+    league: P=0.2295  rarity=0.7705
+      team: P=0.1379  rarity=0.8621
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.8349
+
+  Samuel Girard (COL, D) — Consecutive games with 0 goals
+    Length: 38 games  |  2025-12-29 to 2026-04-12
+    league: P=0.1904  rarity=0.8096
+      team: P=0.1852  rarity=0.8148
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.8340
+
+  Gustav Forsling (FLA, D) — Consecutive games with 0 goals
+    Length: 36 games  |  2026-01-12 to 2026-04-13
+    league: P=0.2216  rarity=0.7784
+      team: P=0.1538  rarity=0.8462
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.8325
+
+  Dylan McIlrath (WSH, D) — Consecutive games with 0 points
+    Length: 13 games  |  2025-10-25 to 2026-04-14
+    league: P=0.2920  rarity=0.7080
+      team: P=0.0769  rarity=0.9231
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.8313
+
+  Haydn Fleury (WPG, D) — Consecutive games with 1 or fewer shots
+    Length: 13 games  |  2026-03-17 to 2026-04-16
+    league: P=0.1890  rarity=0.8110
+      team: P=0.2083  rarity=0.7917
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.8265
+
+  Martin Pospisil (CGY, C) — Consecutive games with 1 or fewer shots
+    Length: 9 games  |  2026-03-18 to 2026-04-11
+    league: P=0.2477  rarity=0.7523
+      team: P=0.1455  rarity=0.8545
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.8250
+
+  Logan Mailloux (STL, D) — Consecutive games with 1+ goals
+    Length: 2 games  |  2026-04-14 to 2026-04-16
+    league: P=0.2308  rarity=0.7692
+      team: P=0.1667  rarity=0.8333
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.8244
+
+  Josh Norris (BUF, C) — Consecutive games with 1+ points
+    Length: 6 games  |  2026-04-04 to 2026-04-15
+    league: P=0.2333  rarity=0.7667
+      team: P=0.1698  rarity=0.8302
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.8222
+
+  Nicolas Deslauriers (PHI, L) — Consecutive games with 0 goals
+    Length: 31 games  |  2025-10-09 to 2026-04-14
+    league: P=0.0553  rarity=0.9447
+      team: P=0.0600  rarity=0.9400
+    player: P=0.5536  rarity=0.4464
+    novelty_index=0.8185
+
+  Kris Letang (PIT, D) — Consecutive games with 0 goals
+    Length: 35 games  |  2026-01-03 to 2026-04-12
+    league: P=0.2464  rarity=0.7536
+      team: P=0.1786  rarity=0.8214
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.8139
+
+  Tim Washe (ANA, C) — Consecutive games with 0 points
+    Length: 12 games  |  2026-03-24 to 2026-04-16
+    league: P=0.2039  rarity=0.7961
+      team: P=0.2391  rarity=0.7609
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.8098
+
+  Tomas Hertl (VGK, C) — Consecutive games with 0 goals
+    Length: 20 games  |  2026-03-06 to 2026-04-15
+    league: P=0.2304  rarity=0.7696
+      team: P=0.2115  rarity=0.7885
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.8088
+
+  Nathan Walker (STL, L) — Consecutive games with 0 goals
+    Length: 20 games  |  2026-01-09 to 2026-04-16
+    league: P=0.2304  rarity=0.7696
+      team: P=0.2128  rarity=0.7872
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.8084
+
+  Ryan Graves (PIT, D) — Consecutive games with 0 points
+    Length: 20 games  |  2025-11-09 to 2026-04-14
+    league: P=0.0887  rarity=0.9113
+      team: P=0.1071  rarity=0.8929
+    player: P=0.4762  rarity=0.5238
+    novelty_index=0.8080
+
+  Josh Morrissey (WPG, D) — Consecutive games with negative plus/minus
+    Length: 4 games  |  2026-04-11 to 2026-04-16
+    league: P=0.3090  rarity=0.6910
+      team: P=0.1250  rarity=0.8750
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.8077
+
+  Leon Draisaitl (EDM, C) — Consecutive games with 1+ points
+    Length: 9 games  |  2026-02-26 to 2026-03-15
+    league: P=0.0718  rarity=0.9282
+      team: P=0.1111  rarity=0.8889
+    player: P=0.5000  rarity=0.5000
+    novelty_index=0.8074
+
+  Dmitri Simashev (UTA, D) — Consecutive games with 0 points
+    Length: 14 games  |  2025-11-08 to 2026-04-16
+    league: P=0.2477  rarity=0.7523
+      team: P=0.2000  rarity=0.8000
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.8059
+
+  Ty Dellandrea (SJS, C) — Consecutive games with 0 goals
+    Length: 25 games  |  2025-11-22 to 2026-04-16
+    league: P=0.1177  rarity=0.8823
+      team: P=0.1458  rarity=0.8542
+    player: P=0.3846  rarity=0.6154
+    novelty_index=0.8057
+
+  Isac Lundeström (CBJ, C) — Consecutive games with 1 or fewer shots
+    Length: 14 games  |  2026-03-21 to 2026-04-14
+    league: P=0.0718  rarity=0.9282
+      team: P=0.0426  rarity=0.9574
+    player: P=0.6087  rarity=0.3913
+    novelty_index=0.8042
+
+  Nick DeSimone (UTA, D) — Consecutive games with 0 goals
+    Length: 33 games  |  2025-11-24 to 2026-04-16
+    league: P=0.2960  rarity=0.7040
+      team: P=0.1500  rarity=0.8500
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.8041
+
+  Brandon Tanev (UTA, L) — Consecutive games with 0 goals
+    Length: 40 games  |  2025-11-12 to 2026-04-16
+    league: P=0.0187  rarity=0.9813
+      team: P=0.0357  rarity=0.9643
+    player: P=0.7143  rarity=0.2857
+    novelty_index=0.8015
+
+  Zakhar Bardakov (COL, C) — Consecutive games with 0 goals
+    Length: 40 games  |  2025-12-02 to 2026-04-16
+    league: P=0.0187  rarity=0.9813
+      team: P=0.0204  rarity=0.9796
+    player: P=0.7407  rarity=0.2593
+    novelty_index=0.8002
+
+  Nino Niederreiter (WPG, R) — Consecutive games with negative plus/minus
+    Length: 4 games  |  2026-04-11 to 2026-04-16
+    league: P=0.2843  rarity=0.7157
+      team: P=0.1875  rarity=0.8125
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.7957
+
+  Mark Scheifele (WPG, C) — Consecutive games with negative plus/minus
+    Length: 4 games  |  2026-04-11 to 2026-04-16
+    league: P=0.2843  rarity=0.7157
+      team: P=0.1875  rarity=0.8125
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.7957
+
+  Tim Washe (ANA, C) — Consecutive games with 1 or fewer shots
+    Length: 9 games  |  2026-03-30 to 2026-04-16
+    league: P=0.2477  rarity=0.7523
+      team: P=0.2391  rarity=0.7609
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.7922
+
+  Barclay Goodrow (SJS, R) — Consecutive games with 0 goals
+    Length: 25 games  |  2026-03-01 to 2026-04-16
+    league: P=0.1177  rarity=0.8823
+      team: P=0.1458  rarity=0.8542
+    player: P=0.4464  rarity=0.5536
+    novelty_index=0.7903
+
+  Nikita Chibrikov (WPG, R) — Consecutive games with 0 points
+    Length: 11 games  |  2025-10-09 to 2026-04-16
+    league: P=0.2405  rarity=0.7595
+      team: P=0.2917  rarity=0.7083
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.7767
+
+  John Marino (UTA, D) — Consecutive games with 0 goals
+    Length: 32 games  |  2026-01-17 to 2026-04-16
+    league: P=0.3220  rarity=0.6780
+      team: P=0.2000  rarity=0.8000
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.7762
+
+  Joel Hanley (CGY, D) — Consecutive games with 0 goals
+    Length: 40 games  |  2025-12-10 to 2026-03-26
+    league: P=0.1525  rarity=0.8475
+      team: P=0.0571  rarity=0.9429
+    player: P=0.5882  rarity=0.4118
+    novelty_index=0.7719
+
+  Oliver Kapanen (MTL, C) — Consecutive games with 0 points
+    Length: 10 games  |  2026-03-29 to 2026-04-14
+    league: P=0.3008  rarity=0.6992
+      team: P=0.2391  rarity=0.7609
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.7710
+
+  Adam Wilsby (NSH, D) — Consecutive games with 0 goals
+    Length: 34 games  |  2025-12-21 to 2026-04-16
+    league: P=0.2764  rarity=0.7236
+      team: P=0.2692  rarity=0.7308
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.7702
+
+  Daemon Hunt (MIN, D) — Consecutive games with 0 goals
+    Length: 32 games  |  2025-11-06 to 2026-04-14
+    league: P=0.3220  rarity=0.6780
+      team: P=0.2258  rarity=0.7742
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.7672
+
+  Michael Kesselring (BUF, D) — Consecutive games with 0 goals
+    Length: 34 games  |  2025-10-28 to 2026-04-15
+    league: P=0.2764  rarity=0.7236
+      team: P=0.2857  rarity=0.7143
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.7644
+
+  Garnet Hathaway (PHI, R) — Consecutive games with 0 points
+    Length: 11 games  |  2026-03-19 to 2026-04-14
+    league: P=0.2405  rarity=0.7595
+      team: P=0.1800  rarity=0.8200
+    player: P=0.3056  rarity=0.6944
+    novelty_index=0.7644
+
+  Brandon Carlo (TOR, D) — Consecutive games with 0 goals
+    Length: 40 games  |  2025-11-09 to 2026-04-08
+    league: P=0.1525  rarity=0.8475
+      team: P=0.1379  rarity=0.8621
+    player: P=0.5063  rarity=0.4937
+    novelty_index=0.7641
+
+  Tyler Myers (VAN, D) — Consecutive games with 0 goals
+    Length: 40 games  |  2025-12-19 to 2026-04-15
+    league: P=0.1525  rarity=0.8475
+      team: P=0.0741  rarity=0.9259
+    player: P=0.5970  rarity=0.4030
+    novelty_index=0.7638
+
+  Ryan Greene (CHI, C) — Consecutive games with 1+ goals
+    Length: 3 games  |  2026-04-11 to 2026-04-15
+    league: P=0.3345  rarity=0.6655
+      team: P=0.2292  rarity=0.7708
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.7610
+
+  Oliver Moore (CHI, C) — Consecutive games with 0 goals
+    Length: 19 games  |  2026-01-10 to 2026-03-08
+    league: P=0.2685  rarity=0.7315
+      team: P=0.3125  rarity=0.6875
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.7582
+
+  Jacob Bernard-Docker (DET, D) — Consecutive games with 1 or fewer shots
+    Length: 15 games  |  2026-03-10 to 2026-04-11
+    league: P=0.1199  rarity=0.8801
+      team: P=0.1304  rarity=0.8696
+    player: P=0.6000  rarity=0.4000
+    novelty_index=0.7564
+
+  Tyler Seguin (DAL, C) — Consecutive games with 1 or fewer shots
+    Length: 8 games  |  2025-11-18 to 2025-12-02
+    league: P=0.3029  rarity=0.6971
+      team: P=0.2791  rarity=0.7209
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.7561
+
+  Simon Benoit (TOR, D) — Consecutive games with 0 goals
+    Length: 40 games  |  2025-12-30 to 2026-04-15
+    league: P=0.1525  rarity=0.8475
+      team: P=0.1379  rarity=0.8621
+    player: P=0.5479  rarity=0.4521
+    novelty_index=0.7537
+
+  Garnet Hathaway (PHI, R) — Consecutive games with 0 goals
+    Length: 29 games  |  2026-01-12 to 2026-04-14
+    league: P=0.0689  rarity=0.9311
+      team: P=0.0600  rarity=0.9400
+    player: P=0.8056  rarity=0.1944
+    novelty_index=0.7500
+
+--- RARE (27 streaks) ---
+
+  Tim Washe (ANA, C) — Consecutive games with 0 goals
+    Length: 18 games  |  2026-03-12 to 2026-04-16
+    league: P=0.2965  rarity=0.7035
+      team: P=0.3043  rarity=0.6957
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.7499
+
+  Jonas Siegenthaler (NJD, D) — Consecutive games with 0 goals
+    Length: 40 games  |  2026-01-06 to 2026-04-14
+    league: P=0.1525  rarity=0.8475
+      team: P=0.1923  rarity=0.8077
+    player: P=0.4878  rarity=0.5122
+    novelty_index=0.7497
+
+  Kevin Korchinski (CHI, D) — Consecutive games with 1 or fewer shots
+    Length: 11 games  |  2026-02-28 to 2026-04-15
+    league: P=0.2881  rarity=0.7119
+      team: P=0.3214  rarity=0.6786
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.7472
+
+  Ethen Frank (WSH, C) — Consecutive games with 1 or fewer shots
+    Length: 8 games  |  2026-03-11 to 2026-04-05
+    league: P=0.3029  rarity=0.6971
+      team: P=0.3061  rarity=0.6939
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.7467
+
+  Miles Wood (CBJ, L) — Consecutive games with negative plus/minus
+    Length: 4 games  |  2026-04-09 to 2026-04-14
+    league: P=0.2843  rarity=0.7157
+      team: P=0.3404  rarity=0.6596
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.7421
+
+  Clayton Keller (UTA, C) — Consecutive games with 1+ points
+    Length: 10 games  |  2026-03-26 to 2026-04-16
+    league: P=0.0459  rarity=0.9541
+      team: P=0.0357  rarity=0.9643
+    player: P=0.9091  rarity=0.0909
+    novelty_index=0.7418
+
+  Hayden Hodgson (OTT, R) — Consecutive games with 0 points
+    Length: 10 games  |  2025-11-09 to 2026-04-15
+    league: P=0.3008  rarity=0.6992
+      team: P=0.3333  rarity=0.6667
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.7380
+
+  Alex Vlasic (CHI, D) — Consecutive games with 0 goals
+    Length: 40 games  |  2026-01-07 to 2026-04-15
+    league: P=0.1525  rarity=0.8475
+      team: P=0.1071  rarity=0.8929
+    player: P=0.6557  rarity=0.3443
+    novelty_index=0.7375
+
+  Tanner Jeannot (BOS, L) — Consecutive games with 0 goals
+    Length: 26 games  |  2026-02-01 to 2026-04-14
+    league: P=0.0983  rarity=0.9017
+      team: P=0.0625  rarity=0.9375
+    player: P=0.8125  rarity=0.1875
+    novelty_index=0.7357
+
+  Ville Koivunen (PIT, R) — Consecutive games with 0 points
+    Length: 9 games  |  2026-03-12 to 2026-04-14
+    league: P=0.3812  rarity=0.6188
+      team: P=0.2500  rarity=0.7500
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.7350
+
+  Sam Dickinson (SJS, D) — Consecutive games with 0 goals
+    Length: 40 games  |  2026-01-06 to 2026-04-16
+    league: P=0.1525  rarity=0.8475
+      team: P=0.1304  rarity=0.8696
+    player: P=0.6452  rarity=0.3548
+    novelty_index=0.7320
+
+  Mattias Janmark (EDM, C) — Consecutive games with 0 goals
+    Length: 31 games  |  2025-12-06 to 2026-02-25
+    league: P=0.0553  rarity=0.9447
+      team: P=0.1111  rarity=0.8889
+    player: P=0.8378  rarity=0.1622
+    novelty_index=0.7295
+
+  Matvei Michkov (PHI, R) — Consecutive games with 1+ goals
+    Length: 3 games  |  2026-04-11 to 2026-04-14
+    league: P=0.3345  rarity=0.6655
+      team: P=0.3200  rarity=0.6800
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.7292
+
+  Rasmus Dahlin (BUF, D) — Consecutive games with 1+ points
+    Length: 5 games  |  2026-04-04 to 2026-04-13
+    league: P=0.1343  rarity=0.8657
+      team: P=0.1786  rarity=0.8214
+    player: P=0.6250  rarity=0.3750
+    novelty_index=0.7275
+
+  Cale Makar (COL, D) — Consecutive games with 1+ points
+    Length: 4 games  |  2026-03-28 to 2026-04-16
+    league: P=0.2412  rarity=0.7588
+      team: P=0.2963  rarity=0.7037
+    player: P=0.3077  rarity=0.6923
+    novelty_index=0.7229
+
+  Vincent Iorio (SJS, D) — Consecutive games with 0 points
+    Length: 13 games  |  2025-12-31 to 2026-03-25
+    league: P=0.2920  rarity=0.7080
+      team: P=0.3913  rarity=0.6087
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.7212
+
+  Kyle Capobianco (DAL, D) — Consecutive games with 0 points
+    Length: 12 games  |  2026-01-12 to 2026-04-13
+    league: P=0.3429  rarity=0.6571
+      team: P=0.3333  rarity=0.6667
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.7212
+
+  Cody Ceci (LAK, D) — Consecutive games with 0 goals
+    Length: 40 games  |  2026-01-09 to 2026-04-16
+    league: P=0.1525  rarity=0.8475
+      team: P=0.2400  rarity=0.7600
+    player: P=0.5405  rarity=0.4595
+    novelty_index=0.7198
+
+  Zach Benson (BUF, L) — Consecutive games with 1+ points
+    Length: 5 games  |  2026-04-06 to 2026-04-15
+    league: P=0.3374  rarity=0.6626
+      team: P=0.3585  rarity=0.6415
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.7146
+
+  Mattias Ekholm (EDM, D) — Consecutive games with 1 or fewer shots
+    Length: 9 games  |  2026-03-28 to 2026-04-16
+    league: P=0.4107  rarity=0.5893
+      team: P=0.2857  rarity=0.7143
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.7107
+
+  Kris Letang (PIT, D) — Consecutive games with 1 or fewer shots
+    Length: 11 games  |  2026-03-22 to 2026-04-12
+    league: P=0.2881  rarity=0.7119
+      team: P=0.4286  rarity=0.5714
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.7097
+
+  John St. Ivany (PIT, D) — Consecutive games with 1 or fewer shots
+    Length: 11 games  |  2026-01-08 to 2026-04-14
+    league: P=0.2881  rarity=0.7119
+      team: P=0.4286  rarity=0.5714
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.7097
+
+  Cole Reinhardt (VGK, L) — Consecutive games with 1+ points
+    Length: 5 games  |  2026-04-04 to 2026-04-15
+    league: P=0.3374  rarity=0.6626
+      team: P=0.3846  rarity=0.6154
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.7054
+
+  Dmitri Simashev (UTA, D) — Consecutive games with 0 goals
+    Length: 28 games  |  2025-10-09 to 2026-04-16
+    league: P=0.4133  rarity=0.5867
+      team: P=0.3000  rarity=0.7000
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.7047
+
+  Artyom Levshunov (CHI, D) — Consecutive games with 0 goals
+    Length: 30 games  |  2026-01-03 to 2026-03-27
+    league: P=0.3651  rarity=0.6349
+      team: P=0.3571  rarity=0.6429
+    player: P=0.1000  rarity=0.9000
+    novelty_index=0.7040
+
+  Johnathan Kovacevic (NJD, D) — Consecutive games with 0 goals
+    Length: 34 games  |  2026-01-11 to 2026-04-14
+    league: P=0.2764  rarity=0.7236
+      team: P=0.2308  rarity=0.7692
+    player: P=0.4250  rarity=0.5750
+    novelty_index=0.7024
+
+  Kurtis MacDermid (OTT, L) — Consecutive games with 0 goals
+    Length: 19 games  |  2025-10-09 to 2026-04-15
+    league: P=0.2685  rarity=0.7315
+      team: P=0.1961  rarity=0.8039
+    player: P=0.4872  rarity=0.5128
+    novelty_index=0.7022
+
+========================================================================
+  TOP 10 NOTABLE STREAKS
+========================================================================
+  1. [EXTREMELY RARE] Scott Sabourin (TBL) — 24G shot_drought (NI=0.9638)
+  2. [EXTREMELY RARE] Tyson Kozak (BUF) — 40G scoreless_drought (NI=0.9609)
+  3. [EXTREMELY RARE] Michael Rasmussen (DET) — 25G pointless_drought (NI=0.9605)
+  4. [EXTREMELY RARE] Matt Rempe (NYR) — 23G pointless_drought (NI=0.9599)
+  5. [EXTREMELY RARE] Ozzy Wiesblatt (NSH) — 19G shot_drought (NI=0.9573)
+  6. [EXTREMELY RARE] Nick Bjugstad (STL) — 34G scoreless_drought (NI=0.9535)
+  7. [EXTREMELY RARE] David Jiricek (MIN) — 26G pointless_drought (NI=0.9496)
+  8. [EXTREMELY RARE] Jake Christiansen (CBJ) — 22G shot_drought (NI=0.9495)
+  9. [EXTREMELY RARE] Jack Finley (STL) — 32G scoreless_drought (NI=0.9495)
+  10. [EXTREMELY RARE] Keegan Kolesar (VGK) — 15G shot_drought (NI=0.9459)
