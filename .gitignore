@@ -5,3 +5,42 @@
 # Python build artifacts
 __pycache__/
 *.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit secrets
+dashboard/.streamlit/secrets.toml
+
+# Model artifacts (large binary files)
+3_prediction_models/models/latest/
+3_prediction_models/models/v_*/
+
+# Data caches and downloads
+4_benchmark/data/moneypuck_*.csv
+4_benchmark/data/actuals_cache.json
+2_broadcast_engine/baselines_cache.json
+2_broadcast_engine/output/
+
+# Source data (external Excel files)
+liste_des_listes/
+
+# Temp / scratch files
+**/_[A-Z]*
+*.log
