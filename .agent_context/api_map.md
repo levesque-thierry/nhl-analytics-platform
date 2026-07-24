@@ -222,3 +222,74 @@ playerByGameStats
 - **Description:** League standings as of a given date.
 
 > **Note:** Useful for context in prediction models (playoff race, seeding).
+
+---
+
+## 🛑 9. Play-by-Play Endpoint (Used by `5_advanced_stats/ingest_pbp.py`)
+- **URL Pattern:** `https://api-web.nhle.com/v1/gamecenter/{gameId}/play-by-play`
+- **HTTP Method:** GET
+- **Description:** Full play-by-play event data for a single game. Each event includes coordinates, situation code, player IDs, and scoring details.
+- **Rate Limit:** 1 request per game, ~1,300 games per season. Use `REQUEST_DELAY = 1.0` between calls.
+
+### PBP Event Object Keys:
+| JSON Key | Type | Description | Database Target |
+| :--- | :--- | :--- | :--- |
+| `id` | int | Unique event identifier. | `event_id` |
+| `period` | int | Period number (1-4 for OT, 5 for SO). | `period` |
+| `timeInPeriod` | str | Time elapsed in period (`"MM:SS"`). | `time_in_period` |
+| `timeRemaining` | str | Time remaining in period (`"MM:SS"`). | `time_remaining` |
+| `sortOrder` | int | Event sequence number within game. | `sort_order` |
+| `typeCode` | int | Numeric event type code. | `type_code` |
+| `typeDescKey` | str | Event type slug: `goal`, `shot-on-goal`, `missed-shot`, `blocked-shot`, `faceoff`, `hit`, `giveaway`, `takeaway`, `penalty`, `stoppage`, `delayed-penalty`, `period-start`, `period-end`, `game-end`. | `type_desc_key` |
+| `situationCode` | str | 4-digit strength code `"HS GS AS GA"` (home skaters, home goalie, away skaters, away goalie). `"1551"` = 5v5. | `situation_code` |
+| `homeTeamDefendingSide` | str | `"left"` or `"right"` — home team defensive zone. | `home_team_defending_side` |
+| `xCoord` | int | X-coordinate on ice (-100 to 100). | `x_coord` |
+| `yCoord` | int | Y-coordinate on ice (-42 to 42). | `y_coord` |
+| `zoneCode` | str | `"O"` (offensive), `"D"` (defensive), `"N"` (neutral). | `zone_code` |
+| `shotType` | str | Shot type: `Wrist`, `Snap`, `Slap`, `Backhand`, `Tip-In`, `Wrap-around`, `Deflected`. | `shot_type` |
+| `shootingPlayerId` | int | Player ID of the shooter (null for non-shot events). | `shooting_player_id` |
+| `goalieInNetId` | int | Goalie ID in net at time of event. | `goalie_in_net_id` |
+| `eventOwnerTeamId` | int | Team ID that owns the event (shooting team for shots). | `event_owner_team_id` |
+| `blockingPlayerId` | int | Player ID who blocked the shot (null for non-block events). | `blocking_player_id` |
+| `scoringPlayerId` | int | Player ID who scored (null for non-goal events). | `scoring_player_id` |
+| `scoringPlayerTotal` | int | Scorer's goal total after this goal. | `scoring_player_total` |
+| `assist1PlayerId` | int | Primary assist player ID. | `assist1_player_id` |
+| `assist1PlayerTotal` | int | Primary assist player's assist total. | `assist1_player_total` |
+| `assist2PlayerId` | int | Secondary assist player ID. | `assist2_player_id` |
+| `assist2PlayerTotal` | int | Secondary assist player's assist total. | `assist2_player_total` |
+| `awayScore` | int | Away team score after this event. | `away_score` |
+| `homeScore` | int | Home team score after this event. | `home_score` |
+| `awaySog` | int | Away team shots on goal after this event. | `away_sog` |
+| `homeSog` | int | Home team shots on goal after this event. | `home_sog` |
+
+> **Note:** The PBP endpoint returns a top-level `"plays"` array. Each item contains the fields above. Events are sequential within the game. The `situationCode` field is used to filter by strength state (e.g., `"1551"` for 5v5).
+
+---
+
+## 🛑 10. Shift Charts Endpoint (Used by `5_advanced_stats/ingest_shifts.py`)
+- **URL Pattern:** `https://api.nhle.com/stats/rest/en/shiftcharts?cayenneExp=gameId={gameId}`
+- **HTTP Method:** GET
+- **Description:** Shift-by-shift ice time data for all players in a game. Each shift records start/end times and duration.
+- **Note:** Uses the older `api.nhle.com/stats/rest/en` endpoint (not `api-web.nhle.com`).
+
+### Shift Object Keys (inside `"data"` array):
+| JSON Key | Type | Description | Database Target |
+| :--- | :--- | :--- | :--- |
+| `gameId` | int | Game identifier. | `game_id` |
+| `shiftId` | int | Unique shift identifier. | `shift_id` |
+| `playerId` | int | NHL Player ID. | `player_id` |
+| `playerName` | str | Full player name. | `player_name` |
+| `teamAbbrev` | str | Team abbreviation (e.g., `"FLA"`, `"CHI"`). | `team_abbr` |
+| `period` | int | Period number (1-5). | `period` |
+| `shiftNumber` | int | Player's shift number in the game. | `shift_number` |
+| `startTime` | str | Shift start time (`"MM:SS"` elapsed in period). | `start_time` |
+| `endTime` | str | Shift end time (`"MM:SS"` elapsed in period). | `end_time` |
+| `duration` | str | Shift duration (`"MM:SS"`). | `duration` |
+| `detailCode` | int | Shift detail code. | `detail_code` |
+| `eventNumber` | int | Event number at shift start. | `event_number` |
+| `hexValue` | str | Hex color value for visualization. | `hex_value` |
+| `teamId` | int | Numeric team ID. | `team_id` |
+| `teamName` | str | Full team name. | `team_name` |
+| `typeCode` | int | Shift type code. | `type_code` |
+
+> **Note:** The shiftcharts endpoint returns a top-level `"data"` array. All players (skaters + goalies) are included. The `startTime`/`endTime` format is `"MM:SS"` elapsed within the period (0:00 to 20:00 for regular periods). Use `duration` for TOI calculations.

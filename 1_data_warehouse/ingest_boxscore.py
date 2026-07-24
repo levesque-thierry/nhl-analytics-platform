@@ -190,6 +190,7 @@ def normalize_boxscore(data: dict) -> list[dict[str, object]]:
                     "game_winning_goals": 0,
                     "ot_goals": 0,
                     "blocked_shots": _safe_int(player.get("blockedShots")),
+                    "hits": _safe_int(player.get("hits")),
                     "giveaways": _safe_int(player.get("giveaways")),
                     "takeaways": _safe_int(player.get("takeaways")),
                     "faceoff_pct": _safe_float(player.get("faceoffWinningPctg")),
@@ -223,6 +224,7 @@ def normalize_boxscore(data: dict) -> list[dict[str, object]]:
                 "game_winning_goals": 0,
                 "ot_goals": 0,
                 "blocked_shots": 0,
+                "hits": 0,
                 "giveaways": 0,
                 "takeaways": 0,
                 "faceoff_pct": None,
@@ -241,13 +243,13 @@ UPSERT_SQL: str = """
          home_road_flag, goals, assists, points, shots, pim, plus_minus,
          time_on_ice, shifts, power_play_goals, power_play_points,
          shorthanded_goals, game_winning_goals, ot_goals,
-         blocked_shots, giveaways, takeaways, faceoff_pct)
+         blocked_shots, hits, giveaways, takeaways, faceoff_pct)
     VALUES
         (:game_id, :player_id, :season, :game_type, :game_date, :team_abbr, :opponent_abbr,
          :home_road_flag, :goals, :assists, :points, :shots, :pim, :plus_minus,
          :time_on_ice, :shifts, :power_play_goals, :power_play_points,
          :shorthanded_goals, :game_winning_goals, :ot_goals,
-         :blocked_shots, :giveaways, :takeaways, :faceoff_pct)
+         :blocked_shots, :hits, :giveaways, :takeaways, :faceoff_pct)
 """
 
 

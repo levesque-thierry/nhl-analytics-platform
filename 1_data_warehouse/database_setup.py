@@ -9,7 +9,7 @@ Tables:
     - players: Biographical reference (no team affiliation — see view)
     - player_team_seasons: Season-aware team tracking per player
     - player_game_logs: Per-game statistical records (FK → players)
-      Includes boxscore-derived columns: blocked_shots, giveaways, takeaways, faceoff_pct
+      Includes boxscore-derived columns: blocked_shots, hits, giveaways, takeaways, faceoff_pct
 
 Views:
     - v_player_current_team: Dynamic lookup of each player's latest team
@@ -88,6 +88,7 @@ def create_tables(conn: sqlite3.Connection) -> None:
             game_winning_goals  INTEGER DEFAULT 0,
             ot_goals            INTEGER DEFAULT 0,
             blocked_shots       INTEGER DEFAULT 0,
+            hits                INTEGER DEFAULT 0,
             giveaways           INTEGER DEFAULT 0,
             takeaways           INTEGER DEFAULT 0,
             faceoff_pct         REAL,
@@ -96,6 +97,66 @@ def create_tables(conn: sqlite3.Connection) -> None:
         )
     """)
     logger.info("Table 'player_game_logs' verified.")
+
+    # --- Advanced stats tables (Phase 6) ---
+
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS play_by_play (
+            game_id                 INTEGER NOT NULL,
+            event_id                INTEGER NOT NULL,
+            period                  INTEGER NOT NULL,
+            time_in_period          TEXT,
+            time_remaining          TEXT,
+            sort_order              INTEGER,
+            type_code               INTEGER,
+            type_desc_key           TEXT,
+            situation_code          TEXT,
+            home_team_defending_side TEXT,
+            x_coord                 INTEGER,
+            y_coord                 INTEGER,
+            zone_code               TEXT,
+            shot_type               TEXT,
+            shooting_player_id      INTEGER,
+            goalie_in_net_id        INTEGER,
+            event_owner_team_id     INTEGER,
+            blocking_player_id      INTEGER,
+            scoring_player_id       INTEGER,
+            scoring_player_total    INTEGER,
+            assist1_player_id       INTEGER,
+            assist1_player_total    INTEGER,
+            assist2_player_id       INTEGER,
+            assist2_player_total    INTEGER,
+            away_score              INTEGER,
+            home_score              INTEGER,
+            away_sog                INTEGER,
+            home_sog                INTEGER,
+            PRIMARY KEY (game_id, event_id)
+        )
+    """)
+    logger.info("Table 'play_by_play' verified.")
+
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS player_shifts (
+            game_id         INTEGER NOT NULL,
+            shift_id        INTEGER NOT NULL,
+            player_id       INTEGER NOT NULL,
+            player_name     TEXT,
+            team_abbr       TEXT,
+            period          INTEGER,
+            shift_number    INTEGER,
+            start_time      TEXT,
+            end_time        TEXT,
+            duration        TEXT,
+            detail_code     INTEGER,
+            event_number    INTEGER,
+            hex_value       TEXT,
+            team_id         INTEGER,
+            team_name       TEXT,
+            type_code       INTEGER,
+            PRIMARY KEY (game_id, shift_id)
+        )
+    """)
+    logger.info("Table 'player_shifts' verified.")
 
 
 def migrate_schema(conn: sqlite3.Connection) -> None:
@@ -153,6 +214,7 @@ def migrate_schema(conn: sqlite3.Connection) -> None:
     # Add boxscore-derived columns if missing
     for col, col_def in [
         ("blocked_shots", "INTEGER DEFAULT 0"),
+        ("hits", "INTEGER DEFAULT 0"),
         ("giveaways", "INTEGER DEFAULT 0"),
         ("takeaways", "INTEGER DEFAULT 0"),
         ("faceoff_pct", "REAL"),
@@ -191,6 +253,30 @@ def create_indexes(conn: sqlite3.Connection) -> None:
     cursor.execute("""
         CREATE INDEX IF NOT EXISTS idx_team_seasons_season
         ON player_team_seasons (season)
+    """)
+    cursor.execute("""
+        CREATE INDEX IF NOT EXISTS idx_pbp_game_id
+        ON play_by_play (game_id)
+    """)
+    cursor.execute("""
+        CREATE INDEX IF NOT EXISTS idx_pbp_type_desc
+        ON play_by_play (type_desc_key)
+    """)
+    cursor.execute("""
+        CREATE INDEX IF NOT EXISTS idx_pbp_situation
+        ON play_by_play (situation_code)
+    """)
+    cursor.execute("""
+        CREATE INDEX IF NOT EXISTS idx_shifts_game_id
+        ON player_shifts (game_id)
+    """)
+    cursor.execute("""
+        CREATE INDEX IF NOT EXISTS idx_shifts_player_id
+        ON player_shifts (player_id)
+    """)
+    cursor.execute("""
+        CREATE INDEX IF NOT EXISTS idx_shifts_team
+        ON player_shifts (team_abbr)
     """)
     logger.info("All indexes verified.")
 
